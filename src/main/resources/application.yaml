@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    platform: 
+    url:
+    username:
+    hikari:
+      maximum-pool-size:
+  jpa:
+    show-sql:
+    hibernate:
+      ddl-auto:
+    properties:
+      hibernate:
+        dialect:
+        format_sql:

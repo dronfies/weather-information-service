@@ -192,7 +192,7 @@ public class InumetWeatherDataScheduler {
             EstacionJson estacionJson = estaciones.get(i);
             if(!mapWeatherStationIdPorEstacion.containsKey(estacionJson.getEstacion())) continue;
             result.add(new WeatherData(
-                new WeatherStation(mapWeatherStationIdPorEstacion.get(estacionJson.getEstacion()), null, null, new LatLngAlt(0, 0, 0), null),
+                new WeatherStation(mapWeatherStationIdPorEstacion.get(estacionJson.getEstacion()), null, null, new LatLngAlt(0, 0, null), null),
                 datetime,
                 observaciones.get(mapIndexPorVariable.get("DirViento")).getDatos().get(i),
                 observaciones.get(mapIndexPorVariable.get("IntViento")).getDatos().get(i),

@@ -8,5 +8,5 @@ import lombok.Data;
 public class LatLngAlt {
     private double latitude;
     private double longitude;
-    private double altitude;
+    private Double altitude;
 }
